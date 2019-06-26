@@ -1,6 +1,9 @@
 package ueb07;
 
 import org.junit.jupiter.api.Test;
+import java.util.Comparator;
+
+import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,4 +16,5 @@ class StudentTest {
 		assertThrows(IllegalArgumentException.class, () -> s.setName(null));
 		assertThrows(IllegalArgumentException.class, () -> s.setMatrikel(-3));
 	}
+
 }
